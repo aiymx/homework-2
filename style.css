@@ -1,0 +1,57 @@
+h1 {
+    background-color:rgb(173, 234, 163)
+}
+
+.description {
+    font-size: 18px;
+    color:rgb(40, 19, 6);
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 300px; 
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+    margin-top:20px;
+    margin-left: 300px; 
+}
+
+.like-button {
+    background-color:pink;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.dislike-button {
+    background-color: lightblue;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 24px;
+    transition: transform 0.1s ease; /* Делает движение плавным и быстрым */
+    cursor:wait;
+}
+
+/* При наведении мыши сдвигаем её в сторону */
+.dislike-button:hover {
+    transform: translate(150px, -50px); /* Кнопка прыгнет вправо и вверх */
+}
+
+.hehe-image {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.footer {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(100, 100, 100);
+    text-align: center;
+    margin-top: 20px;
+}
